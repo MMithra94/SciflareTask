@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		936E02DB2B87BB7500A63B94 /* MithraSciflareTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E02DA2B87BB7500A63B94 /* MithraSciflareTaskApp.swift */; };
+		936E02DD2B87BB7500A63B94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E02DC2B87BB7500A63B94 /* ContentView.swift */; };
+		936E02DF2B87BB7600A63B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936E02DE2B87BB7600A63B94 /* Assets.xcassets */; };
+		936E02E22B87BB7600A63B94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936E02E12B87BB7600A63B94 /* Preview Assets.xcassets */; };
+		936E030A2B87BC2900A63B94 /* PersonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E03092B87BC2900A63B94 /* PersonListView.swift */; };
+		936E030C2B87BC4700A63B94 /* AddPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E030B2B87BC4700A63B94 /* AddPersonView.swift */; };
+		936E030E2B87BC5700A63B94 /* MapDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E030D2B87BC5700A63B94 /* MapDetailView.swift */; };
+		936E03102B87BC6B00A63B94 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E030F2B87BC6B00A63B94 /* Person.swift */; };
+		936E03122B87BC8000A63B94 /* PersonListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E03112B87BC8000A63B94 /* PersonListModel.swift */; };
+		936E03142B87BC9800A63B94 /* AddPersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E03132B87BC9800A63B94 /* AddPersonModel.swift */; };
+		936E03162B87BCAF00A63B94 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E03152B87BCAF00A63B94 /* Webservice.swift */; };
+		936E03192B87BF8B00A63B94 /* PersonData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 936E03172B87BF8B00A63B94 /* PersonData.xcdatamodeld */; };
+		936E031C2B87C03E00A63B94 /* PersonData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E031A2B87C03E00A63B94 /* PersonData+CoreDataClass.swift */; };
+		936E031D2B87C03E00A63B94 /* PersonData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E031B2B87C03E00A63B94 /* PersonData+CoreDataProperties.swift */; };
+		936E031F2B87C09800A63B94 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E031E2B87C09800A63B94 /* DataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		936E02E82B87BB7600A63B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 936E02CF2B87BB7500A63B94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 936E02D62B87BB7500A63B94;
+			remoteInfo = MithraSciflareTask;
+		};
+		936E02F22B87BB7600A63B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 936E02CF2B87BB7500A63B94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 936E02D62B87BB7500A63B94;
+			remoteInfo = MithraSciflareTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		936E02D72B87BB7500A63B94 /* MithraSciflareTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MithraSciflareTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		936E02DA2B87BB7500A63B94 /* MithraSciflareTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MithraSciflareTaskApp.swift; sourceTree = "<group>"; };
+		936E02DC2B87BB7500A63B94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		936E02DE2B87BB7600A63B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		936E02E12B87BB7600A63B94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		936E02E72B87BB7600A63B94 /* MithraSciflareTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MithraSciflareTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		936E02F12B87BB7600A63B94 /* MithraSciflareTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MithraSciflareTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		936E03092B87BC2900A63B94 /* PersonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListView.swift; sourceTree = "<group>"; };
+		936E030B2B87BC4700A63B94 /* AddPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonView.swift; sourceTree = "<group>"; };
+		936E030D2B87BC5700A63B94 /* MapDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailView.swift; sourceTree = "<group>"; };
+		936E030F2B87BC6B00A63B94 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		936E03112B87BC8000A63B94 /* PersonListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListModel.swift; sourceTree = "<group>"; };
+		936E03132B87BC9800A63B94 /* AddPersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonModel.swift; sourceTree = "<group>"; };
+		936E03152B87BCAF00A63B94 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		936E03182B87BF8B00A63B94 /* PersonData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersonData.xcdatamodel; sourceTree = "<group>"; };
+		936E031A2B87C03E00A63B94 /* PersonData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PersonData+CoreDataClass.swift"; path = "MithraSciflareTask/CoreData/PersonData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		936E031B2B87C03E00A63B94 /* PersonData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PersonData+CoreDataProperties.swift"; path = "MithraSciflareTask/CoreData/PersonData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		936E031E2B87C09800A63B94 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		936E02D42B87BB7500A63B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936E02E42B87BB7600A63B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936E02EE2B87BB7600A63B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		936E02CE2B87BB7500A63B94 = {
+			isa = PBXGroup;
+			children = (
+				936E031A2B87C03E00A63B94 /* PersonData+CoreDataClass.swift */,
+				936E031B2B87C03E00A63B94 /* PersonData+CoreDataProperties.swift */,
+				936E02D92B87BB7500A63B94 /* MithraSciflareTask */,
+				936E02D82B87BB7500A63B94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		936E02D82B87BB7500A63B94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				936E02D72B87BB7500A63B94 /* MithraSciflareTask.app */,
+				936E02E72B87BB7600A63B94 /* MithraSciflareTaskTests.xctest */,
+				936E02F12B87BB7600A63B94 /* MithraSciflareTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		936E02D92B87BB7500A63B94 /* MithraSciflareTask */ = {
+			isa = PBXGroup;
+			children = (
+				936E02DA2B87BB7500A63B94 /* MithraSciflareTaskApp.swift */,
+				936E02DC2B87BB7500A63B94 /* ContentView.swift */,
+				936E03082B87BC0A00A63B94 /* View */,
+				936E03072B87BBFE00A63B94 /* Model */,
+				936E03062B87BBE000A63B94 /* ViewModel */,
+				936E03052B87BBD400A63B94 /* CoreData */,
+				936E03042B87BBCA00A63B94 /* WebService */,
+				936E02DE2B87BB7600A63B94 /* Assets.xcassets */,
+				936E02E02B87BB7600A63B94 /* Preview Content */,
+			);
+			path = MithraSciflareTask;
+			sourceTree = "<group>";
+		};
+		936E02E02B87BB7600A63B94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				936E02E12B87BB7600A63B94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		936E03042B87BBCA00A63B94 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				936E03152B87BCAF00A63B94 /* Webservice.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		936E03052B87BBD400A63B94 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				936E03172B87BF8B00A63B94 /* PersonData.xcdatamodeld */,
+				936E031E2B87C09800A63B94 /* DataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		936E03062B87BBE000A63B94 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				936E03112B87BC8000A63B94 /* PersonListModel.swift */,
+				936E03132B87BC9800A63B94 /* AddPersonModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		936E03072B87BBFE00A63B94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				936E030F2B87BC6B00A63B94 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		936E03082B87BC0A00A63B94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				936E03092B87BC2900A63B94 /* PersonListView.swift */,
+				936E030B2B87BC4700A63B94 /* AddPersonView.swift */,
+				936E030D2B87BC5700A63B94 /* MapDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		936E02D62B87BB7500A63B94 /* MithraSciflareTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 936E02FB2B87BB7600A63B94 /* Build configuration list for PBXNativeTarget "MithraSciflareTask" */;
+			buildPhases = (
+				936E02D32B87BB7500A63B94 /* Sources */,
+				936E02D42B87BB7500A63B94 /* Frameworks */,
+				936E02D52B87BB7500A63B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MithraSciflareTask;
+			productName = MithraSciflareTask;
+			productReference = 936E02D72B87BB7500A63B94 /* MithraSciflareTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		936E02E62B87BB7600A63B94 /* MithraSciflareTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 936E02FE2B87BB7600A63B94 /* Build configuration list for PBXNativeTarget "MithraSciflareTaskTests" */;
+			buildPhases = (
+				936E02E32B87BB7600A63B94 /* Sources */,
+				936E02E42B87BB7600A63B94 /* Frameworks */,
+				936E02E52B87BB7600A63B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				936E02E92B87BB7600A63B94 /* PBXTargetDependency */,
+			);
+			name = MithraSciflareTaskTests;
+			productName = MithraSciflareTaskTests;
+			productReference = 936E02E72B87BB7600A63B94 /* MithraSciflareTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		936E02F02B87BB7600A63B94 /* MithraSciflareTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 936E03012B87BB7600A63B94 /* Build configuration list for PBXNativeTarget "MithraSciflareTaskUITests" */;
+			buildPhases = (
+				936E02ED2B87BB7600A63B94 /* Sources */,
+				936E02EE2B87BB7600A63B94 /* Frameworks */,
+				936E02EF2B87BB7600A63B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				936E02F32B87BB7600A63B94 /* PBXTargetDependency */,
+			);
+			name = MithraSciflareTaskUITests;
+			productName = MithraSciflareTaskUITests;
+			productReference = 936E02F12B87BB7600A63B94 /* MithraSciflareTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		936E02CF2B87BB7500A63B94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					936E02D62B87BB7500A63B94 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					936E02E62B87BB7600A63B94 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 936E02D62B87BB7500A63B94;
+					};
+					936E02F02B87BB7600A63B94 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 936E02D62B87BB7500A63B94;
+					};
+				};
+			};
+			buildConfigurationList = 936E02D22B87BB7500A63B94 /* Build configuration list for PBXProject "MithraSciflareTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 936E02CE2B87BB7500A63B94;
+			productRefGroup = 936E02D82B87BB7500A63B94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				936E02D62B87BB7500A63B94 /* MithraSciflareTask */,
+				936E02E62B87BB7600A63B94 /* MithraSciflareTaskTests */,
+				936E02F02B87BB7600A63B94 /* MithraSciflareTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		936E02D52B87BB7500A63B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936E02E22B87BB7600A63B94 /* Preview Assets.xcassets in Resources */,
+				936E02DF2B87BB7600A63B94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936E02E52B87BB7600A63B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936E02EF2B87BB7600A63B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		936E02D32B87BB7500A63B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936E03142B87BC9800A63B94 /* AddPersonModel.swift in Sources */,
+				936E03102B87BC6B00A63B94 /* Person.swift in Sources */,
+				936E03192B87BF8B00A63B94 /* PersonData.xcdatamodeld in Sources */,
+				936E03122B87BC8000A63B94 /* PersonListModel.swift in Sources */,
+				936E030E2B87BC5700A63B94 /* MapDetailView.swift in Sources */,
+				936E02DD2B87BB7500A63B94 /* ContentView.swift in Sources */,
+				936E031D2B87C03E00A63B94 /* PersonData+CoreDataProperties.swift in Sources */,
+				936E030C2B87BC4700A63B94 /* AddPersonView.swift in Sources */,
+				936E031C2B87C03E00A63B94 /* PersonData+CoreDataClass.swift in Sources */,
+				936E02DB2B87BB7500A63B94 /* MithraSciflareTaskApp.swift in Sources */,
+				936E030A2B87BC2900A63B94 /* PersonListView.swift in Sources */,
+				936E031F2B87C09800A63B94 /* DataManager.swift in Sources */,
+				936E03162B87BCAF00A63B94 /* Webservice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936E02E32B87BB7600A63B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936E02ED2B87BB7600A63B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		936E02E92B87BB7600A63B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 936E02D62B87BB7500A63B94 /* MithraSciflareTask */;
+			targetProxy = 936E02E82B87BB7600A63B94 /* PBXContainerItemProxy */;
+		};
+		936E02F32B87BB7600A63B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 936E02D62B87BB7500A63B94 /* MithraSciflareTask */;
+			targetProxy = 936E02F22B87BB7600A63B94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		936E02F92B87BB7600A63B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		936E02FA2B87BB7600A63B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		936E02FC2B87BB7600A63B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MithraSciflareTask/Preview Content\"";
+				DEVELOPMENT_TEAM = CA78W5CTCG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Sciflare wants to access your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.task.MithraSciflareTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		936E02FD2B87BB7600A63B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MithraSciflareTask/Preview Content\"";
+				DEVELOPMENT_TEAM = CA78W5CTCG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Sciflare wants to access your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.task.MithraSciflareTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		936E02FF2B87BB7600A63B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.task.MithraSciflareTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MithraSciflareTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MithraSciflareTask";
+			};
+			name = Debug;
+		};
+		936E03002B87BB7600A63B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.task.MithraSciflareTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MithraSciflareTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MithraSciflareTask";
+			};
+			name = Release;
+		};
+		936E03022B87BB7600A63B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.task.MithraSciflareTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MithraSciflareTask;
+			};
+			name = Debug;
+		};
+		936E03032B87BB7600A63B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.task.MithraSciflareTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MithraSciflareTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		936E02D22B87BB7500A63B94 /* Build configuration list for PBXProject "MithraSciflareTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936E02F92B87BB7600A63B94 /* Debug */,
+				936E02FA2B87BB7600A63B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		936E02FB2B87BB7600A63B94 /* Build configuration list for PBXNativeTarget "MithraSciflareTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936E02FC2B87BB7600A63B94 /* Debug */,
+				936E02FD2B87BB7600A63B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		936E02FE2B87BB7600A63B94 /* Build configuration list for PBXNativeTarget "MithraSciflareTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936E02FF2B87BB7600A63B94 /* Debug */,
+				936E03002B87BB7600A63B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		936E03012B87BB7600A63B94 /* Build configuration list for PBXNativeTarget "MithraSciflareTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936E03022B87BB7600A63B94 /* Debug */,
+				936E03032B87BB7600A63B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		936E03172B87BF8B00A63B94 /* PersonData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				936E03182B87BF8B00A63B94 /* PersonData.xcdatamodel */,
+			);
+			currentVersion = 936E03182B87BF8B00A63B94 /* PersonData.xcdatamodel */;
+			path = PersonData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 936E02CF2B87BB7500A63B94 /* Project object */;
+}

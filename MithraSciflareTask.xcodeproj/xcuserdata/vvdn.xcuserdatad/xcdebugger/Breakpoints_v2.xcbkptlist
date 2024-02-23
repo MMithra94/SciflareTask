@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E39AFCA4-577A-4E1E-A8DB-547A6EC8D3DD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DE1B5A2-3ED0-46E7-931F-36A0C4CDCBCB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MithraSciflareTask/View/AddPersonView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "addPerson()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3DE1B5A2-3ED0-46E7-931F-36A0C4CDCBCB - cf7ed1d94be4d98"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MithraSciflareTask.AddPersonView.addPerson() async -&gt; ()"
+                  moduleName = "MithraSciflareTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vvdn/Downloads/MithraSciflareTask/MithraSciflareTask/View/AddPersonView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "3DE1B5A2-3ED0-46E7-931F-36A0C4CDCBCB - bc61e5d2e970b594"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for MithraSciflareTask.AddPersonView.addPerson() async -&gt; ()"
+                  moduleName = "MithraSciflareTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vvdn/Downloads/MithraSciflareTask/MithraSciflareTask/View/AddPersonView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
